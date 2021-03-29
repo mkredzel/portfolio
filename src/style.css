@@ -467,7 +467,7 @@ html {
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height: 525px;
+  height: 535px;
 }
 
 .project-card-view:hover {
@@ -556,17 +556,20 @@ html {
     padding-bottom: 0 !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    height: auto !important;
+  }
+
+  .project-card-view {
+    height: 520px !important;
   }
 
   .project-card-button-right,
   .project-card-button-right-disabled {
-    width: 42% !important;
+    width: 41% !important;
   }
 
   .project-card-button-left,
   .project-card-button-left-disabled {
-    width: 45% !important;
+    width: 44% !important;
   }
 }
 
@@ -579,7 +582,7 @@ html {
     height: auto !important;
   }
   .project-card-view {
-    height: 570px !important;
+    height: 570px;
   }
 
   .project-card-button-right,

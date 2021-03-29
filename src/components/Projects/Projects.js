@@ -32,8 +32,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={"https://i.imgur.com/ctGFt5f.jpg"}
-              title="My Portfolio"
-              description="My personal portfolio featuring some of my github projects as well as my skills and resume."
+              title="Portfolio"
+              description="My personal portfolio featuring some of my GitHub projects as well as my skills and resume."
               stack="Node.js, Express.js, React.js"
               sourceCode="a"
               liveDemo="https://mkredzel.me"
