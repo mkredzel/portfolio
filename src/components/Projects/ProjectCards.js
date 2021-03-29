@@ -10,8 +10,11 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "left" }}>
+        <Card.Text style={{ textAlign: "center" }}>
           {props.description}
+        </Card.Text>
+        <Card.Text className="stack">
+          {props.stack}
         </Card.Text>
         <Button href={props.sourceCode} target="_blank" className={"project-card-button-left" + props.disabled1}>
           <i className="cib-github">&nbsp;</i>

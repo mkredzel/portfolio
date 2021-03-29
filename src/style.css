@@ -685,3 +685,10 @@ html {
   background-color: gray !important;
   cursor: default !important;
 }
+
+.stack {
+  text-align: "center";
+  color: #c770f0;
+  font-weight: bold;
+  font-size: 14px;
+}
