@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -19,7 +18,7 @@ function Projects() {
             <ProjectCard
               imgPath={"https://i.imgur.com/eCN49C0.jpg"}
               title="EConsultant"
-              description="Speech to text analysis application. Live demo available on request"
+              description="Speech to text analysis application. Live demo available on request."
               stack="AWS EC2, S3, DynamoDB, Lambda, Comprehend, API Gateway, Cognito, Web Speech API,
               Socket.io, Plotly.js, ZingChart.js, amCharts.js"
               sourceCode=""
@@ -35,7 +34,7 @@ function Projects() {
               title="Portfolio"
               description="My personal portfolio featuring some of my GitHub projects as well as my skills and resume."
               stack="Node.js, Express.js, React.js"
-              sourceCode="a"
+              sourceCode="https://github.com/mkredzel/portfolio"
               liveDemo="https://mkredzel.me"
               disabled1=""
               disabled2=""
@@ -55,7 +54,7 @@ function Projects() {
               disabled2=""
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={"https://i.imgur.com/bB8vopH.png"}
@@ -63,7 +62,7 @@ function Projects() {
               description="TV price comparison website based on web scraping."
               stack="Java, Maven, Spring, Hibernate, JSoup, MySQL, Sequelize, Node.js, Express.js, Vue.js"
               sourceCode="https://github.com/mkredzel/price-checker"
-              liveDemo="b"
+              liveDemo="https://pricechecker.mkredzel.me"
               disabled1=""
               disabled2=""
             />
@@ -76,13 +75,11 @@ function Projects() {
               description="A cocktail recipe sharing application."
               stack="Node.js, Express, MySQL, Sequelize, Vue.js"
               sourceCode="https://github.com/mkredzel/cocktail-sharer"
-              liveDemo="b"
+              liveDemo="https://cocktailsharer.mkredzel.me"
               disabled1=""
               disabled2=""
             />
           </Col>
-
-          
 
           <Col md={4} className="project-card">
             <ProjectCard
